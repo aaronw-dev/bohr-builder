@@ -80,7 +80,7 @@ function loadElement(){
     canvas.width = windowWidth;
     canvas.height = windowHeight;
 
-    var ringSpacing = 45;
+    var ringSpacing = 35;
     var ringOffset = 50;
     ctx.clearRect(0,0,windowWidth,windowHeight,"black");
     var element = findElement(elements, searchBar.value)
